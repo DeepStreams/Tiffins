@@ -31,4 +31,28 @@ export const items = [
     prepTime: 25,
     inStock: true,
   },
+  {
+    name: 'Burger Pizza',
+    description: 'Pizza with tomato sauce, mozzarella cheese, and mushrooms.',
+    imageSrc: '/mushroom-pizza.jpg',
+    price: 11.99,
+    prepTime: 25,
+    inStock: true,
+  },
+  {
+    name: 'Cheeseburger',
+    description: 'Pizza with tomato sauce, mozzarella cheese, and mushrooms.',
+    imageSrc: '/mushroom-pizza.jpg',
+    price: 11.99,
+    prepTime: 25,
+    inStock: true,
+  },
+  {
+    name: 'Hamburger',
+    description: 'Pizza with tomato sauce, mozzarella cheese, and mushrooms.',
+    imageSrc: '/mushroom-pizza.jpg',
+    price: 11.99,
+    prepTime: 25,
+    inStock: true,
+  },
 ];

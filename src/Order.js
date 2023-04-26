@@ -23,8 +23,8 @@ function Order() {
   return (
     <Grid container spacing={2} alignItems="center" justifyContent="left" maxWidth="md">
       {/* First Column: Order Cards */}
-      <Grid item xs={12} sm={12} md={8} lg={8}>
-        <Grid container spacing={2}>
+      <Grid item xs={12} sm={12} md={7} lg={7}>
+        <Grid container spacing={2} >
           {items.map((item) => (
             <Grid item key={item.name} xs={12}>
               <OrderCard {...item} onClick={() => addToCart(item)} />
@@ -35,7 +35,7 @@ function Order() {
 
       {/* Second Column: Cart */}
       {!isSmallScreen && (
-        <Grid item xs={12} sm={12} md={4} lg={4}>
+        <Grid item xs={12} sm={12} md={5} lg={5} style={{ maxHeight: '600px', overflow: 'auto' }} >
           <Cart cartItems={cartItems} setCartItems={setCartItems} />
         </Grid>
       )}
